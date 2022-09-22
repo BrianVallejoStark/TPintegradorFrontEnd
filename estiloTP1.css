@@ -1,0 +1,92 @@
+#logo{
+    border-radius: 20px;
+    width: 20%;
+}
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.izq1{
+ 
+    align-items: flex-end !important;
+
+
+}
+.logo{
+    display: flex !important;
+    align-items: center !important;
+    align-content: center !important;
+  justify-content: center !important;
+  vertical-align: middle !important;
+  margin: 0;
+  height: fit-content;
+  padding: 0;
+  padding-left: 2px;
+}
+.ver{
+    color: lime !important;
+}
+.carr{
+   height: 600px; 
+}
+.series {
+    height: 420px !important;
+}
+.titulo{
+    text-align: center !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cabecera{
+    position: absolute;
+    text-align: right;
+    color: aliceblue;
+    top: 380px;
+    width: 50%;
+    right: 50px;
+}
+.chicagoo{
+    margin: 0 !important;
+}
+.chicago{
+    font-size:x-large;
+    margin: 0 !important;
+}
+.vs{
+    background-color:limegreen !important;
+    border-color: limegreen;
+}
+.tress{
+margin-bottom: 30px;
+}
+.uplusss{
+width: 100% !important;
+margin: 0;
+height: 400px;
+}
+.upluss{
+    padding: 0;
+}
+.uplus{
+color: azure;
+background-color: navy;
+padding: 20px 10px 20px 10px;
+}
+.formu{
+width: 60%;
+}
+.final{
+    background-image: radial-gradient(circle at 120.71% 50%, #c38800 0, #ca7b00 8.33%, #cc6a00 16.67%, #ca5800 25%, #c24300 33.33%, #b52b00 41.67%, #a30505 50%, #8f000c 58.33%, #7e0010 66.67%, #6e0013 75%, #600015 83.33%, #550018 91.67%, #4b001c 100%) !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.comu{
+    margin-right: 3px;
+    margin-left: 3px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
