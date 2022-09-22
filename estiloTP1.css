@@ -28,7 +28,8 @@
     color: lime !important;
 }
 .carr{
-   height: 600px; 
+   height: 600px !important; 
+
 }
 .series {
     height: 420px !important;
