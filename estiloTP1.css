@@ -21,8 +21,10 @@
   vertical-align: middle !important;
   margin: 0;
   height: fit-content;
-  padding: 0;
-  padding-left: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .ver{
     color: lime !important;
@@ -90,4 +92,44 @@ width: 60%;
     margin-left: 3px;
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+#ms3{
+    border-width: 3px;
+    border-color: #cc6a00;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-style: solid;
+    background-color: brown;
+    border-radius: 6px;
+    color: whitesmoke;
+    text-align: center;
+}
+#ms6{
+    border-width: 3px;
+    border-color: dodgerblue;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-style: solid;
+    background-color: blue;
+    border-radius: 6px;
+    color: whitesmoke;
+    text-align: center;
+}
+#ms12{
+    border-width: 3px;
+    border-color: springgreen;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-style: solid;
+    background-color: green;
+    border-radius: 6px;
+    color: whitesmoke;
+    text-align: center;
+}
+#planes{
+    flex-flow: nowrap;
+    border-radius: 0px !important;
+}
+.mss{
+    color: whitesmoke;
 }
