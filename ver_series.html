@@ -97,11 +97,13 @@
       <div class="row">
         <div class="col">
           <label for="exampleFormControlInput1" class="form-label">Cantidad de dispositivos</label>
-          <input type="number" class="form-control" placeholder="Dispositivos" aria-label="Devices" id="devi" min="1">
+          <input type="number" class="form-control" placeholder="Dispositivos" aria-label="Devices" id="devi" min="1" >
+          <!--onchange="planes()"-->
         </div>
         <div class="col">
           <label for="exampleFormControlInput1" class="form-label">Duración de la subscripción</label>
-          <select class="form-select" aria-label="Default select example" id="plan">
+          <select class="form-select" aria-label="Default select example" id="plan" >
+            <!--onchange="planes()"-->
             <option value="1 meses" selected>1 mes</option>
             <option value="3 meses">3 meses</option>
             <option value="6 meses">6 meses</option>
@@ -115,7 +117,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <button type="reset" class="btn btn-primary vs cabeza logo form-control">Limpiar formulario</button>
+          <button type="reset" class="btn btn-primary vs cabeza logo form-control" onclick="limpiar()">Limpiar formulario</button>
         </div>
         <div class="col">
           <button type="button" class="btn btn-primary vs cabeza logo form-control" onclick="planes()">Resumen de pago</button>

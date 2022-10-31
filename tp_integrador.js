@@ -1,11 +1,11 @@
-
+var pago = 0
+document.getElementById('pago').innerHTML = pago
 function planes() {
     var disp = Number(document.getElementById("devi").value);
     const subsc = 550
     var plan = document.getElementById("plan").value;
     var meses = 0
     var desc = 0
-    var pago = 0
 switch (plan) {
     case "1 meses":
         desc = 0
@@ -26,5 +26,9 @@ switch (plan) {
 }
 pago = disp * subsc * meses * (1-desc)
 document.getElementById('pago').innerHTML = pago
+}
+function limpiar() {
+    pago = ""
+    document.getElementById('pago').innerHTML =pago
 }
 
