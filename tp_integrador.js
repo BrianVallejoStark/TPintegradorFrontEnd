@@ -1,4 +1,4 @@
-var pago = 0
+let pago = 0
 function planes() {
     var disp = parseInt(document.getElementById("devi").value);
     const subsc = 550
@@ -26,7 +26,9 @@ switch (plan.value) {
 }
 pago = disp * subsc * meses * (1-desc)
 // console.log(pago)
-document.getElementById('pago').innerHTML = pago
+let aPagar = document.getElementById('pago')
+aPagar.innerHTML=pago
+//console.log(aPagar.innerText)
 }
 function limpiar() {
     pago = ""
